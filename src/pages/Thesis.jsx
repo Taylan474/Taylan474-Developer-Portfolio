@@ -1,8 +1,17 @@
 function Thesis() {
   return (
-      <main className="bg-gradient-to-b from-black to-gray-900 text-white font-sans">
+    <main className="bg-gradient-to-b from-black to-gray-900 text-white font-sans">
       <div className="min-h-screen px-6 py-16 max-w-3xl mx-auto space-y-12">
         <h1 className="text-4xl font-bold text-center">Bachelor’s Thesis Overview</h1>
+
+         <section>
+          <h2 className="text-2xl font-semibold mb-2">Project Goal</h2>
+          <p className="text-gray-300">
+            The goal of this thesis was to design and implement a prototype system that uses machine learning to automatically verify 
+            the correct use of parts in Alukon's production process. The system needed to distinguish between similar-looking components 
+            in real-time and detect incorrect part usage before final assembly or coating.
+          </p>
+        </section>
 
         <section>
           <h2 className="text-2xl font-semibold mb-2">Why Product Identification is Important at Alukon</h2>
@@ -20,6 +29,7 @@ function Thesis() {
           </p>
         </section>
 
+       
         <section>
           <h2 className="text-2xl font-semibold mb-4">Example Images from the Project</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

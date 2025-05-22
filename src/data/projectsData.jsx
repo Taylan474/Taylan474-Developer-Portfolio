@@ -13,7 +13,7 @@ const projects = [
       image: "/images/prototype.png",
       tech: ["Python", "YOLO11", "OpenCV", "Machine Learning"],
       route: "/thesis",
-      hidden: true
+      hidden: false
     },
     
     {
